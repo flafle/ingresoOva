@@ -14,7 +14,7 @@ Bootstrap 5
 Html
 Css
 
-<<<El proyecto solo cuenta con vista desktop a pedido de quienes administran.>>>
+<<<***El proyecto solo cuenta con vista desktop a pedido de quienes administran.***>>>
 
 
 # Despliegue:
