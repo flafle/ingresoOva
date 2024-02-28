@@ -1,0 +1,30 @@
+
+ [   {
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "edad": 28,
+        "dni":123456,
+        "abono":true
+     },
+
+    {
+        "nombre": "Ana",
+       " apellido": "Garcia",
+        "edad": 35,
+        "dni":123458,
+      
+        "abono":true
+    },
+
+    {
+        "nombre": "Luis",
+        "apellido":   "Fernandez",
+        "edad": 45,
+        
+        "dni":123457,
+       
+        "abono":false
+    }
+ ]
+
+
