@@ -12,13 +12,13 @@ const socios = [
 document.getElementById('validar').addEventListener('click', () => {
     const dniIngresado = document.getElementById('dni').value;
     if (dniIngresado.length !== 8) {
-        swal.fire("Dni incorrecto");
+        alert("Dni incorrecto");
     } else {
         const socioEncontrado = socios.find(socio => socio.dni === dniIngresado);
         if (socioEncontrado) {
-           swal.fire(`DNI válido para ${socioEncontrado.nombre}: ${socioEncontrado.abonado}`);
+           alert(`DNI válido para ${socioEncontrado.nombre}: ${socioEncontrado.abonado}`);
         } else {
-            swal.fire('DNI no encontrado');
+            alert('DNI no encontrado');
         }
     }
 });
